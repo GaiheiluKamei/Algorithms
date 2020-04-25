@@ -1,5 +1,3 @@
-[![](https://travis-ci.com/GaiheiluKamei/Algorithms.svg?branch=master)](https://github.com/GaiheiluKamei/Algorithms)
-
 # 《算法图解》笔记
 
 ## ch1
