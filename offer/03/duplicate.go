@@ -5,7 +5,7 @@
 	的输出是重复的数字2或者3。
  */
 
-package rn
+package offer
 
 // Duplicate find duplication number in an array, return -1 if not found.
 func Duplicate(l []int) int {

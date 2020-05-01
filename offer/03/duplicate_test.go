@@ -1,4 +1,4 @@
-package rn
+package offer
 
 import "testing"
 
