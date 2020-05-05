@@ -3,3 +3,6 @@
 
 # Algorithms
 Implemented by Go.
+
+- [《算法图解》](https://github.com/GaiheiluKamei/Algorithms/tree/master/grokking_algorithms)
+- [《剑指offer(第2版)》](https://github.com/GaiheiluKamei/Algorithms/tree/master/offer)
