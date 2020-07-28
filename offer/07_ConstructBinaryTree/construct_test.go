@@ -32,8 +32,8 @@ func TestConstruct(t *testing.T) {
 	//      4
 	//     /
 	//    5
-	pre = []int{1,2,3,4,5}
-	mid = []int{5,4,3,2,1}
+	pre = []int{1, 2, 3, 4, 5}
+	mid = []int{5, 4, 3, 2, 1}
 	root = Construct(pre, mid)
 	res = make([]int, 0)
 	if !reflect.DeepEqual(preTraverse(root, res), pre) || !reflect.DeepEqual(midTraverse(root, res), mid) {
@@ -50,8 +50,8 @@ func TestConstruct(t *testing.T) {
 	//                  4
 	//                   \
 	//                    5
-	pre = []int{1,2,3,4, 5}
-	mid = []int{1,2,3,4,5}
+	pre = []int{1, 2, 3, 4, 5}
+	mid = []int{1, 2, 3, 4, 5}
 	root = Construct(pre, mid)
 	res = make([]int, 0)
 	if !reflect.DeepEqual(preTraverse(root, res), pre) || !reflect.DeepEqual(midTraverse(root, res), mid) {
@@ -73,8 +73,8 @@ func TestConstruct(t *testing.T) {
 	//          2       3
 	//         / \     / \
 	//        4   5   6   7
-	pre = []int{1,2,4,5,3,6,7}
-	mid = []int{4,2,5,1,6,3,7}
+	pre = []int{1, 2, 4, 5, 3, 6, 7}
+	mid = []int{4, 2, 5, 1, 6, 3, 7}
 	root = Construct(pre, mid)
 	res = make([]int, 0)
 	if !reflect.DeepEqual(preTraverse(root, res), pre) || !reflect.DeepEqual(midTraverse(root, res), mid) {
